@@ -1,1 +1,60 @@
-# C-Practice_Hub
+# C Basics Exercises
+
+Bem-vindo ao **C Basics Exercises**! 🚀 Este repositório contém uma coleção de exercícios para aprimorar suas habilidades na linguagem C.
+
+## 📌 Sobre
+Aqui você encontrará exercícios organizados por nível de dificuldade, cobrindo desde os fundamentos até tópicos mais avançados. O objetivo é praticar e reforçar os conceitos essenciais da linguagem C.
+
+## 📂 Estrutura do Repositório
+```
+C-Basics-Exercises/
+│-- C-Fundamentals/
+│   │-- MainConsol.c
+│   │-- Ascii.c
+│   │-- DecimaisParaHexadecimais.c
+│   │-- InformarQtdBytes.c
+│   │-- ExibirTexto.c
+│   │-- MediaAluno.c
+│   │-- CelciusFarnheit.c
+│   │-- ConsumoGasolina.c
+│   │-- DistanciaEntrePontos.c
+
+│-- 2-Estruturas_de_Controle/
+│   │-- condicoes.c
+│   │-- loops.c
+│-- 3-Funcoes/
+│   │-- funcoes_basicas.c
+│   │-- recursao.c
+│-- 4-Ponteiros_e_Arrays/
+│   │-- ponteiros.c
+│   │-- arrays.c
+│-- ...
+│-- README.md
+```
+
+## 🏁 Como Usar
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/C-Basics-Exercises.git
+   ```
+2. Navegue até o diretório do exercício desejado.
+3. Compile e execute o código usando o **Pelles C** ou GCC:
+   ```sh
+   gcc arquivo.c -o programa
+   ./programa
+   ```
+   
+
+## 📚 Conteúdo dos Exercícios
+- **Introdução**: Primeiros passos com C, entrada e saída de dados, variáveis.
+- **Estruturas de Controle**: Condicionais (`if`, `switch`), loops (`for`, `while`).
+- **Funções**: Declaração, recursão, passagem de parâmetros.
+- **Ponteiros e Arrays**: Manipulação de ponteiros, vetores e strings.
+- **Estruturas e Arquivos**: Uso de `struct`, manipulação de arquivos.
+
+## 🎯 Contribuições
+Sinta-se à vontade para sugerir melhorias, adicionar novos exercícios ou corrigir qualquer erro. Basta abrir um pull request! 🤝
+
+
+---
+🛠️ *Bora codar em C!* 🚀
