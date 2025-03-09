@@ -9,15 +9,16 @@ Aqui você encontrará exercícios organizados por nível de dificuldade, cobrin
 ```
 C-Basics-Exercises/
 │-- C-Fundamentals/
-│   │-- MainConsol.c
-│   │-- Ascii.c
-│   │-- DecimaisParaHexadecimais.c
-│   │-- InformarQtdBytes.c
-│   │-- ExibirTexto.c
-│   │-- MediaAluno.c
-│   │-- CelciusFarnheit.c
-│   │-- ConsumoGasolina.c
-│   │-- DistanciaEntrePontos.c
+|   |-- Output
+│   │   |-- MainConsol.c
+│   │   |-- Ascii.c
+│   │   |-- DecimaisParaHexadecimais.c
+│   │   |-- InformarQtdBytes.c
+│   │   |-- ExibirTexto.c
+│   │   |-- MediaAluno.c
+│   │   |-- CelciusFarnheit.c
+│   │   |-- ConsumoGasolina.c
+│   │   |-- DistanciaEntrePontos.c
 
 │-- 2-Estruturas_de_Controle/
 │   │-- condicoes.c
