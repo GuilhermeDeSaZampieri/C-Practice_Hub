@@ -19,9 +19,17 @@ C-Basics-Exercises/
 │   |-- ConsumoGasolina.c
 │   │-- DistanciaEntrePontos.c
 
-│-- 2-Estruturas_de_Controle/
-│   │-- condicoes.c
-│   │-- loops.c
+│-- C-Conditions/
+│   │-- MainFile.c
+│   │-- TabelaVerdade.c
+│   │-- SituacaoDoAluno.c
+│   │-- SituacaoDoAlunoAprovado.c
+│   │-- NumeroMaior.c
+│   │-- Equacao2Grau.c
+│   │-- ImpostoRenda.c
+│   │-- Calculadora.c
+│   │-- NumerologiaFacebook.c
+│   │-- RodizioDeCarros.c
 │-- 3-Funcoes/
 │   │-- funcoes_basicas.c
 │   │-- recursao.c
