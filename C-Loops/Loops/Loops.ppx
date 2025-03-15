@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="1.0">
+	<category name="Fatorial.c">
+		<category name="Window">
+			<property name="Left" type="integer">0</property>
+			<property name="Top" type="integer">0</property>
+			<property name="Right" type="integer">958</property>
+			<property name="Bottom" type="integer">741</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="Potenciacao.c">
+		<category name="Window">
+			<property name="Left" type="integer">26</property>
+			<property name="Top" type="integer">26</property>
+			<property name="Right" type="integer">984</property>
+			<property name="Bottom" type="integer">548</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="QuadradoPerfeito.c">
+		<category name="Window">
+			<property name="Left" type="integer">52</property>
+			<property name="Top" type="integer">52</property>
+			<property name="Right" type="integer">1010</property>
+			<property name="Bottom" type="integer">574</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="CorDe0A15.c">
+		<category name="Window">
+			<property name="Left" type="integer">78</property>
+			<property name="Top" type="integer">78</property>
+			<property name="Right" type="integer">1036</property>
+			<property name="Bottom" type="integer">600</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="MainFille.c">
+		<category name="Window">
+			<property name="Left" type="integer">104</property>
+			<property name="Top" type="integer">104</property>
+			<property name="Right" type="integer">1062</property>
+			<property name="Bottom" type="integer">626</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="ContarAte10.c">
+		<category name="Window">
+			<property name="Left" type="integer">130</property>
+			<property name="Top" type="integer">130</property>
+			<property name="Right" type="integer">1088</property>
+			<property name="Bottom" type="integer">652</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="DigitoVerificador.c">
+		<category name="Window">
+			<property name="Left" type="integer">4294967288</property>
+			<property name="Top" type="integer">4294967265</property>
+			<property name="Right" type="integer">2377</property>
+			<property name="Bottom" type="integer">713</property>
+			<property name="Maximized" type="integer">1</property>
+			<property name="Active" type="integer">1</property>
+		</category>
+	</category>
+	<category name="Termialll.c">
+		<category name="Window">
+			<property name="Left" type="integer">156</property>
+			<property name="Top" type="integer">156</property>
+			<property name="Right" type="integer">971</property>
+			<property name="Bottom" type="integer">678</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+</settings>
