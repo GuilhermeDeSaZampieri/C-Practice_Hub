@@ -8,6 +8,10 @@ int main(void){
 	//Potencia();
 	//Fatorial();
 	//Termial();
-	DigitoVeri();
+	//DigitoVeri();
+	//MaxMin();
+	//RaizPositiva();
+	//CashMachine();
+	Rastro();
 	return 0;
-	}
+}

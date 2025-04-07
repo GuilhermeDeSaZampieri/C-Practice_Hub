@@ -3,9 +3,11 @@
 Bem-vindo ao **C Basics Exercises**! 🚀 Este repositório contém uma coleção de exercícios para aprimorar suas habilidades na linguagem C.
 
 ## 📌 Sobre
+
 Aqui você encontrará exercícios organizados por nível de dificuldade, cobrindo desde os fundamentos até tópicos mais avançados. O objetivo é praticar e reforçar os conceitos essenciais da linguagem C.
 
 ## 📂 Estrutura do Repositório
+
 ```
 C-Basics-Exercises/
 │-- C-Fundamentals/
@@ -30,6 +32,22 @@ C-Basics-Exercises/
 │   │-- Calculadora.c
 │   │-- NumerologiaFacebook.c
 │   │-- RodizioDeCarros.c
+
+│-- C-Loops/
+│   │-- MainFile.c
+│   │-- ContarAte10.c
+│   │-- CaixaEletronico.c
+│   │-- CorDe0A15.c
+│   │-- DigitoVerificador.c
+│   │-- Fatorial.c
+│   │-- MaximoMinimoSequencia.c
+│   │-- Potenciação.c
+│   │-- QuadradoPerfeito.c
+│   │-- RaizQuadradaDeNumerosPositivos.c
+│   │-- Rastros.c
+│   │-- Termial.c
+
+
 │-- 3-Funcoes/
 │   │-- funcoes_basicas.c
 │   │-- recursao.c
@@ -41,6 +59,7 @@ C-Basics-Exercises/
 ```
 
 ## 🏁 Como Usar
+
 1. Clone este repositório:
    ```sh
    git clone https://github.com/seu-usuario/C-Basics-Exercises.git
@@ -51,9 +70,9 @@ C-Basics-Exercises/
    gcc arquivo.c -o programa
    ./programa
    ```
-   
 
 ## 📚 Conteúdo dos Exercícios
+
 - **Introdução**: Primeiros passos com C, entrada e saída de dados, variáveis.
 - **Estruturas de Controle**: Condicionais (`if`, `switch`), loops (`for`, `while`).
 - **Funções**: Declaração, recursão, passagem de parâmetros.
@@ -61,8 +80,9 @@ C-Basics-Exercises/
 - **Estruturas e Arquivos**: Uso de `struct`, manipulação de arquivos.
 
 ## 🎯 Contribuições
+
 Sinta-se à vontade para sugerir melhorias, adicionar novos exercícios ou corrigir qualquer erro. Basta abrir um pull request! 🤝
 
-
 ---
-🛠️ *Bora codar em C!* 🚀
+
+🛠️ _Bora codar em C!_ 🚀

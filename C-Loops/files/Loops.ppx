@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="1.0">
+	<category name="Fatorial.c" />
+	<category name="Potenciacao.c" />
+	<category name="QuadradoPerfeito.c" />
+	<category name="CorDe0A15.c" />
+	<category name="MainFille.c">
+		<category name="Window">
+			<property name="Left" type="integer">0</property>
+			<property name="Top" type="integer">0</property>
+			<property name="Right" type="integer">815</property>
+			<property name="Bottom" type="integer">522</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="ContarAte10.c" />
+	<category name="DigitoVerificador.c" />
+	<category name="Termialll.c" />
+	<category name="Rastros.c">
+		<category name="Window">
+			<property name="Left" type="integer">4294967288</property>
+			<property name="Top" type="integer">4294967265</property>
+			<property name="Right" type="integer">1095</property>
+			<property name="Bottom" type="integer">704</property>
+			<property name="Maximized" type="integer">1</property>
+			<property name="Active" type="integer">1</property>
+		</category>
+	</category>
+</settings>

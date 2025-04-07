@@ -17,6 +17,6 @@ int DigitoVeri(void){
 	}
 	veri = s%10;
 	printf("A conta %d possui digito verificador = %d\n%d-%d\n", cont, veri, cont, veri);
-	s
+	
 	return 0;
 	}
