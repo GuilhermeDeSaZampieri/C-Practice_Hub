@@ -1,4 +1,1 @@
-modules = ["c-clang14"]
-
-[nix]
-channel = "stable-24_05"
+run = "gcc C-Recursion/mainFile.c C-Recursion/Fatorial.c C-Recursion/Potencia.c C-Recursion/SerieHarmonica.c C-Recursion/Termial.c C-Recursion/ContagemRegressiva.c C-Recursion/ContagemProgressiva.c -o main && ./main"
