@@ -1,3 +1,4 @@
+/*
 #include <stdio.h>
 
 void mainFat(void);
@@ -25,6 +26,6 @@ int main(void) {
   //mainPar();
   //mainQuon();
   //mainProd();
-  mainFibo();
+  //mainFibo();
   return 0;
-}
+}*/
