@@ -37,7 +37,7 @@ void OrdernarCodigo(Func f[], int n){
 void OrdenarNome(Func f[], int n){
   for(int i = 1; i <= n-1; i++){
     for(int j =0; j<n-1; j++){
-      if( bcmp(f[j].nome,f[j+1].nome)>0){
+      if( strcmp(f[j].nome,f[j+1].nome)>0){
         Func aux = f[j];
         f[j] = f[j+1];
         f[j+1] = aux;
@@ -87,6 +87,10 @@ int mainTableFunc(){
   printf("\n\n");
 
   OrdenarSalario(f,5);
+  ExibirFuncionarios(f, 5);
+  printf("\n\n");
+
+  OrdenarNome(f,5);
   ExibirFuncionarios(f, 5);
   printf("\n\n");
 
