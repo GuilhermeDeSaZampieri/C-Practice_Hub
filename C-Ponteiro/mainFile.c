@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-void Troca(int *p, int *g){
-  int aux = *p;
-  *p = *g;
-  *g = aux;
-}
-
 void apreendendo(){
   int v = 5, *p;
   p = &v;
@@ -13,27 +7,6 @@ void apreendendo(){
   *p = *p + v;
   printf("Valor de p: %d\n", *p);
   printf("Endereco de v: 0%p\n", &v);
-}
-
-void UsandoTroca(){
-  int a = 6, b = 10;
-  Troca(&a, &b);
-  printf("\na = %d b = %d\n", a, b);
-}
-
-void MinMax(int v[], int n, int *min, int *max){
-  *min = *max = v[0];
-  for(int i = 1; i < n; i++)
-    if(*min > v[i]) *min = v[i];
-    else if(*max < v[i]) *max = v[i];
-  
-}
-
-void UsandoMinMax(){
-  int v[5] = {26,55,89,14,77};
-  int min, max;
-  MinMax(v,5,&min,&max);
-  printf("Minimo: %d\nMaximo: %d\n", min, max);
 }
 
 void cadeiaLiteral(){
@@ -45,16 +18,7 @@ void cadeiaLiteral(){
 }
 
 
-void Exibir(int *p, int n){
-  for(int i = 0; i < n; i++)
-    printf("\n%d ", *(p+i));
-  
-}
 
-void usandoExibe(){
-  int v[3] = {55, 70, 46};
-  Exibir(v, 3);
-}
 void Putstr(char *s){
   while(*s){
     putchar(*s);
@@ -66,47 +30,35 @@ void usandoPutstr(){
   Putstr(s);
 }
 
-
-int Len(char *n){
-  char *i = n;
-  while(*n){
-    n++;
-  }
-  return n-i;
-}
-
-void usandoLen(){
-  printf("\n%d: ", Len("Ola mundo"));
-}
-
 void ponteiro(){
   int *p;
   p = NULL;
   printf("\n%d %p", p,p);
 }
 
-void funcaoComParametroInfinito(int n, ...){
-  printf("\n%d", n);
-}
 
-void usandoFuncaoComParametroInfinito(){
-  funcaoComParametroInfinito(3, 1, 2, 3);
-}
 
-int f(char x, int y){
-  
-}
-00000000
+
+void UsandoMinMax(void);
+void UsandoTroca(void);
+void UsandoExibir(void);
+void UsandoLen(void);
+void UsandoSomaDePonteiro(void);
+void UsandoFuncaoComParametroInfinito(void);
+void UsandoOrdenarTabela(void);
+
 int main (void){
   
   apreendendo();
   UsandoTroca();
   UsandoMinMax();
   cadeiaLiteral();
-  usandoExibe();
+  UsandoExibir();
   usandoPutstr();
-  usandoLen();
+  UsandoLen();
   ponteiro();
-  usandoFuncaoComParametroInfinito();
+  UsandoFuncaoComParametroInfinito();
+  UsandoSomaDePonteiro();
+  UsandoOrdenarTabela();
   return 0;
 }
