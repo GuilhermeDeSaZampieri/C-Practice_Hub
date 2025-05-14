@@ -2,50 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
-//Alocacao dinamica
-void AlocacaoDinamica(){
-  int *p;
-  //malloc retorna um ponteiro para o inicio da memoria alocada
-  p = malloc(sizeof(int));
-  *p = 5;
-  printf("Valor de p: %d\n", *p);
-}
-void AlocacaoDinamicaFree(){
-  int *p = malloc(sizeof(int));
-  *p = 5;
-  free(p); //libera a memoria alocada
-  p = NULL;
-  printf("Valor de p: %p\n", p);
-
-}
-
-//Vetor dinamico
-void leia(float v[], int n){
-  for(int i = 0; i < n; i++){
-    printf("\nDigite: [%d]: ", i+1);
-    scanf("%f", &v[i]);
-  }
-}
-float media(float v[], int n){
-  float soma = 0;
-  for(int i = 0; i < n; i++)
-    soma += v[i];
-  return soma/n;
-}
-void vetorDinamico(){
-  int n;
-  printf("Digite o tamanho do vetor: ");
-  scanf("%d", &n);
-  float *v = malloc(n * sizeof(float)); //cria o vetor
-  leia(v,n);
-  printf("Media: %.2f\n", media(v,n));
-}
-
 //1 - Intercalação de sequencia ordenadas(merge)
 
 //Linked list
 //Is a sequence of nodes composted of item and a pointer to the next node
 //interessante File Allocation Table (FAT)
+
 
 typedef int ItemNode;
 typedef struct no{
@@ -110,14 +72,17 @@ void destroi(Lista *l){
   }
 }
 
+void vetorDinamico(void);
+void usandoAlocacaoDinamica(void);
+void usandoMerge(void);
 
 int main(void){
   srand(time(NULL));
   Lista I = range(10);
   Lista R = randList(rand() %10, 100);
 
-  AlocacaoDinamica();
-  AlocacaoDinamicaFree();
+  usandoMerge();
+  usandoAlocacaoDinamica();
   //vetorDinamico();
   exibeLista(I);
   exibeLista(R);
