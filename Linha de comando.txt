@@ -1,0 +1,28 @@
+echo &errorlevel% = dentro da pasta do programa C (colocar no cmd)
+sempre que um programar tiver um return o valor do retorno
+é levado para essa variavel %errorlevel% 
+
+//eco.c
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+int numeric(char *s){
+	for(int i=0;  s[i]; i++)
+		if(!isdigit(s[i])) return 0;
+	return 1;
+}
+
+int main(int argc, char *argv[]) {
+	for(int i =1;i <argc; i++) {
+		if(!numeric(argv[i])){
+			printf("argumento invalido: %s\n", argv[i]);
+			exit(1);
+		}
+		for(int j = 0; j < atoi( argv[i]); j++) {
+			printf("*");
+		}
+		printf("\n");
+	}
+	return 0;
+}
