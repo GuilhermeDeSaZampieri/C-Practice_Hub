@@ -49,8 +49,14 @@ C-Basics-Exercises/
 
 
 │-- 3-Funcoes/
-│   │-- funcoes_basicas.c
-│   │-- recursao.c
+│   │-- BrincandoComDefine.c
+│   │-- DataValidaRecursividade.c
+│   │-- DiaDaSemana.c
+│   │-- RaizQuadradaNewton.c
+│   │-- TesteDeMaiusculaDefine.c
+│   │-- MainFile.c
+
+
 │-- 4-Ponteiros_e_Arrays/
 │   │-- ponteiros.c
 │   │-- arrays.c
