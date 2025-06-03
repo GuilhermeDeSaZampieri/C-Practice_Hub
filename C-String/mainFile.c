@@ -1,4 +1,4 @@
-/*
+
 #include <stdio.h>
 
 void mainLeitura(void);
@@ -8,4 +8,4 @@ int main(void){
   mainLeitura();
  // mainComparacao();
   return 0;
-}*/
+}
