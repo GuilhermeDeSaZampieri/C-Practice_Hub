@@ -72,6 +72,14 @@ void OrdenarData(Func f[], int n){
   }
 }
 
+float totalSalario(Func f[], int n){
+  float total = 0;
+  for(int i = 0; i < n; i++){
+    total += f[i].salario;
+  }
+  return total;
+}
+
 
 int mainTableFunc(){
   Func f[] = {{561,"Eva Maranhao",9200.00,{2,7,2012}},
@@ -96,7 +104,8 @@ int mainTableFunc(){
 
   OrdenarData(f,5);
   ExibirFuncionarios(f, 5);
-
+  printf("\n\n");
+  printf("Total salario: %.2f", totalSalario(f, 5));
 
   return 0;
 }

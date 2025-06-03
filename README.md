@@ -86,6 +86,17 @@ C-Basics-Exercises/
 │   │-- TemperaturaMedia.c
 │   │-- mainFile.c
 
+│-- C-String/
+│   │-- ComparacaoString.c
+│   │-- LeituraString.c
+│   │-- mainFile.c
+
+│-- C-Structure/
+│   │-- StructTypeDef.c
+│   │-- TableFunc.c
+│   │-- LivroType.c
+│   │-- mainFile.c
+
 │-- 4-Ponteiros_e_Arrays/
 │   │-- ponteiros.c
 │   │-- arrays.c

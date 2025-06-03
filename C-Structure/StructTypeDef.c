@@ -33,8 +33,8 @@ int mainStructType(){
   printf("Nome: %s\nIdade: %d\nSalario: %.2f\nData nascimento: %d/%d/%d ",f1.nome, f1.idade, f1.salario, f1.dataNascimento.dia, f1.dataNascimento.mes, f1.dataNascimento.ano);
 
   Funcionario f2;
-  printf("\nDigite sua idade: "); scanf("%d%*c", &f2.idade);
-  printf("\nDigite seu nome: "); scanf("%s", &f2.nome); 
+  printf("\n\nDigite sua idade: "); scanf("%d%*c", &f2.idade);
+  printf("Digite seu nome: "); scanf("%s", &f2.nome); 
   printf("Nome: %s\nIdade: %d\n",f2.nome, f2.idade);
 
   reajuste(f1);
