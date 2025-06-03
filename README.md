@@ -48,13 +48,22 @@ C-Basics-Exercises/
 │   │-- Termial.c
 
 
-│-- 3-Funcoes/
+│-- C-Functions/
 │   │-- BrincandoComDefine.c
 │   │-- DataValidaRecursividade.c
 │   │-- DiaDaSemana.c
 │   │-- RaizQuadradaNewton.c
 │   │-- TesteDeMaiusculaDefine.c
 │   │-- MainFile.c
+
+│-- C-Vetores-matrizes/
+│   │-- ConverterBinario.c
+│   │-- JogoDaVelha.c
+│   │-- Labirinto.c
+│   │-- OrdenacaoTroca.c
+│   │-- TemperaturaMedia.c
+│   │-- mainFile.c
+
 
 
 │-- 4-Ponteiros_e_Arrays/
