@@ -97,7 +97,7 @@ C-Basics-Exercises/
 │   │-- LivroType.c
 │   │-- mainFile.c
 
-│-- 4-Ponteiros_e_Arrays/
+│-- C-Ponteiros/
 │   │-- ponteiros.c
 │   │-- arrays.c
 │-- ...
