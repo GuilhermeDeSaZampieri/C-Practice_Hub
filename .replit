@@ -1,27 +1,65 @@
-run = "gcc C-DynamicAllocation/mainFile.c C-Recursion/mainFile.c C-Structure/mainFile.c C-Vetores-matrizes/mainFile.c C-String/mainFile.c C-Recursion/Fatorial.c C-Recursion/Potencia.c C-Recursion/SerieHarmonica.c C-Recursion/Termial.c C-Recursion/ContagemRegressiva.c C-Recursion/ContagemProgressiva.c C-Recursion/ConversaoBina.c C-Recursion/FuncaoHanoi.c C-Recursion/Par.c C-Recursion/Quonciente.c C-Recursion/Produto.c C-Recursion/Fibonacci.c C-Vetores-matrizes/ConverterBinario.c C-Vetores-matrizes/TemperaturaMedia.c C-Vetores-matrizes/Labirinto.c C-Vetores-matrizes/JogoDaVelha.c C-Vetores-matrizes/OrdenacaoTroca.c C-String/LeituraString.c C-String/ComparacaoString.c C-Structure/StructTypeDef.c C-Structure/TableFunc.c C-Ponteiro/mainFile.c C-Ponteiro/MinMaxSq.c C-Ponteiro/Troca.c C-Ponteiro/Exibir.c C-Ponteiro/Len.c C-Ponteiro/SomaDePonteiro.c C-Ponteiro/ParametroInfinito.c C-Ponteiro/OrdenarTabela.c C-DynamicAllocation/VetorDinamico.c C-DynamicAllocation/AlocacaoDinamica.c C-DynamicAllocation/Merge.c C-Pilha/mainFile.c C-Pilha/pilha.c -o main && ./main"
+# Configuração principal do Replit
+[run]
+command = "gcc C-Pilha/mainFile.c C-Pilha/pilha.c -o main && ./main"
+
+[workflows]
+runButton = "C-Pilha"   # Define qual projeto roda ao clicar em "Run"
+
+# Workflow para C-Pilha
+[[workflows.workflow]]
+name = "C-Pilha"
+author = "agent"
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "gcc C-Pilha/mainFile.c C-Pilha/pilha.c -o main && ./main"
+
+# Workflow para C-Recursion
+[[workflows.workflow]]
+name = "C-Recursion"
+author = "agent"
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "gcc C-Recursion/mainFile.c C-Recursion/Fatorial.c C-Recursion/Potencia.c C-Recursion/SerieHarmonica.c C-Recursion/Termial.c C-Recursion/ContagemRegressiva.c C-Recursion/ContagemProgressiva.c C-Recursion/ConversaoBina.c C-Recursion/FuncaoHanoi.c C-Recursion/Par.c C-Recursion/Quonciente.c C-Recursion/Produto.c C-Recursion/Fibonacci.c -o main && ./main"
+
+# Workflow para C-Ponteiro
+[[workflows.workflow]]
+name = "C-Ponteiro"
+author = "agent"
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "gcc C-Ponteiro/mainFile.c C-Ponteiro/MinMaxSq.c C-Ponteiro/Troca.c C-Ponteiro/Exibir.c C-Ponteiro/Len.c C-Ponteiro/ParametroInfinito.c C-Ponteiro/SomaDePonteiro.c C-Ponteiro/OrdenarTabela.c -o main && ./main"
+
+# Workflow para C-Vetores-matrizes
+[[workflows.workflow]]
+name = "C-Vetores-matrizes"
+author = "agent"
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "gcc C-Vetores-matrizes/mainFile.c C-Vetores-matrizes/ConverterBinario.c C-Vetores-matrizes/TemperaturaMedia.c C-Vetores-matrizes/Labirinto.c C-Vetores-matrizes/JogoDaVelha.c C-Vetores-matrizes/OrdenacaoTroca.c -o main && ./main"
+
+# Workflow para C-String
+[[workflows.workflow]]
+name = "C-String"
+author = "agent"
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "gcc C-String/mainFile.c C-String/LeituraString.c C-String/ComparacaoString.c -o main && ./main"
+
+# Workflow para C-Structure
+[[workflows.workflow]]
+name = "C-Structure"
+author = "agent"
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "gcc C-Structure/mainFile.c C-Structure/StructTypeDef.c C-Structure/TableFunc.c -o main && ./main"
+
+# Workflow para C-DynamicAllocation
+[[workflows.workflow]]
+name = "C-DynamicAllocation"
+author = "agent"
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "gcc C-DynamicAllocation/mainFile.c C-DynamicAllocation/VetorDinamico.c C-DynamicAllocation/AlocacaoDinamica.c C-DynamicAllocation/Merge.c -o main && ./main"
 
 [agent]
 expertMode = true
-
-[workflows]
-runButton = "Project"
-
-[[workflows.workflow]]
-name = "Project"
-mode = "parallel"
-author = "agent"
-
-[[workflows.workflow.tasks]]
-task = "workflow.run"
-args = "C Program"
-
-[[workflows.workflow]]
-name = "C Program"
-author = "agent"
-
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "cd C-Ponteiro && gcc -o program mainFile.c MinMaxSq.c Troca.c Exibir.c Len.c ParametroInfinito.c SomaDePonteiro.c OrdenarTabela.c && ./program"
-
-[workflows.workflow.metadata]
-outputType = "console"

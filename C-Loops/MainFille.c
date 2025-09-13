@@ -1,6 +1,6 @@
 ﻿#include <stdio.h>
 
-/*
+
 int main(void){
 	
 	//Contar();
@@ -13,6 +13,6 @@ int main(void){
 	//MaxMin();
 	//RaizPositiva();
 	//CashMachine();
-	Rastro();
+	//Rastro();
 	return 0;
-}*/
+}

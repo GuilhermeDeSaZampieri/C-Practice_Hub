@@ -38,6 +38,7 @@ void ponteiro(){
 }
 
 
+
 void UsandoMinMax(void);
 void UsandoTroca(void);
 void UsandoExibir(void);

@@ -1,5 +1,5 @@
 ﻿#include <stdio.h>
-/*
+
 int main(void) 
 { 	
 	//Ascci();
@@ -9,6 +9,6 @@ int main(void)
 	//Media();
 	//ConsumoCarro();
 	//Temperatura();
-	Distancia();
+	//Distancia();
 	return 0; 
-}*/
+}

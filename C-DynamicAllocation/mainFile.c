@@ -122,7 +122,7 @@ void vetorDinamico(void);
 void usandoAlocacaoDinamica(void);
 void usandoMerge(void);
 
-/*
+
 int main(void){
   srand(time(NULL));
   Lista I = range(10);

@@ -1,4 +1,4 @@
-/*
+
 #include <stdio.h>
 
 void mainFat(void);
@@ -28,4 +28,4 @@ int main(void) {
   //mainProd();
   //mainFibo();
   return 0;
-}*/
+}

@@ -1,4 +1,4 @@
-/*
+
 #include <stdio.h>
 
 void mainBinario(void);
@@ -15,7 +15,7 @@ int main(void){
 	mainOrdenacao();
 	return 0;
 }
-*/
+
 
 /*
 int conta(float v[], float m){

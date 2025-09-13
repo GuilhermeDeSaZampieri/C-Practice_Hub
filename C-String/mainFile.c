@@ -8,4 +8,4 @@ int main(void){
   mainLeitura();
  // mainComparacao();
   return 0;
-}*/
+}
