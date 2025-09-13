@@ -19,17 +19,20 @@ Pilha pilha(int capacidade){
 Pilha empilhap(Pilha p, int d){
  if(p->topo < p->capacidade+1){
    p->dados[p->topo++] = d;
+   printf("Adicionado %d a pilha\n", d);
  }
   else{
-    printf("Pilha cheia!");
+    printf("Pilha cheia!zm");
   }
 }
 
 int desimpilhap(Pilha p){
   if(p->topo > -1){
-    return p->dados[--p->topo];
+    int tirado = p->dados[--p->topo];
+    printf("Tirar %d da pilha \n", tirado);
+    return tirado;
   }
-  printf("Pilha vazia");
+  printf("Pilha vazia\n");
   return -1;
 }
 
@@ -51,8 +54,8 @@ int topop(Pilha p){
 }
 
 void destroip(Pilha *p){
+  printf("Pilha destruida com sucesso");
   free((*p)->dados);
   free(*p);
   *p = NULL;
-  printf("Pilha destruida com sucesso");
 }
