@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 void apreendendo(){
@@ -37,8 +38,6 @@ void ponteiro(){
 }
 
 
-
-/*
 void UsandoMinMax(void);
 void UsandoTroca(void);
 void UsandoExibir(void);
@@ -62,4 +61,3 @@ int main (void){
   UsandoOrdenarTabela();
   return 0;
 }
-*/

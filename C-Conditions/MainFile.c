@@ -11,6 +11,6 @@ int main (void)
 	//ImpostoDeRenda();
 	//calc();
 	//DataFace();
-	Rodizio();
+	//Rodizio();
 	return 0;
 }

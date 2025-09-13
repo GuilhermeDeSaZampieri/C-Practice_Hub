@@ -122,6 +122,7 @@ void vetorDinamico(void);
 void usandoAlocacaoDinamica(void);
 void usandoMerge(void);
 
+/*
 int main(void){
   srand(time(NULL));
   Lista I = range(10);
@@ -138,11 +139,11 @@ int main(void){
   printf("Ultimo elemento da lista: %d\n", UltimoL(R));
   printf("Pertinencia na lista: %d\n", pertence(R, 50));
 
-  /*Exercicio 6 destroy list
+  Exercicio 6 destroy list
   destroi(&I);
-  destroi(&R);*/
+  destroi(&R);
   
   return 0;
   
-}
+}*/
 
