@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+/*
 int main (void)
 {	
 	//TabelaVerdade();
@@ -14,3 +14,4 @@ int main (void)
 	//Rodizio();
 	return 0;
 }
+*/

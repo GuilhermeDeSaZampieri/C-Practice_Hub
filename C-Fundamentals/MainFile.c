@@ -1,4 +1,5 @@
 ﻿#include <stdio.h>
+/*
 int main(void) 
 { 	
 	//Ascci();
@@ -10,4 +11,4 @@ int main(void)
 	//Temperatura();
 	Distancia();
 	return 0; 
-}
+}*/

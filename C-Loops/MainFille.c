@@ -1,5 +1,6 @@
 ﻿#include <stdio.h>
 
+/*
 int main(void){
 	
 	//Contar();
@@ -14,4 +15,4 @@ int main(void){
 	//CashMachine();
 	Rastro();
 	return 0;
-}
+}*/

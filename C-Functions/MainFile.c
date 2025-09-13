@@ -1,5 +1,6 @@
 ﻿#include <stdio.h>
 
+/*
 int main (void){
 	
 	//BrincandoComDefine();
@@ -8,4 +9,4 @@ int main (void){
 	//mainDataValida();
 	mainDiaSemanaString();	
 	return 0;
-}
+}*/

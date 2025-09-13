@@ -1,4 +1,27 @@
-run = "gcc C-DynamicAllocation/mainFile.c C-Recursion/mainFile.c C-Structure/mainFile.c C-Vetores-matrizes/mainFile.c C-String/mainFile.c C-Recursion/Fatorial.c C-Recursion/Potencia.c C-Recursion/SerieHarmonica.c C-Recursion/Termial.c C-Recursion/ContagemRegressiva.c C-Recursion/ContagemProgressiva.c C-Recursion/ConversaoBina.c C-Recursion/FuncaoHanoi.c C-Recursion/Par.c C-Recursion/Quonciente.c C-Recursion/Produto.c C-Recursion/Fibonacci.c C-Vetores-matrizes/ConverterBinario.c C-Vetores-matrizes/TemperaturaMedia.c C-Vetores-matrizes/Labirinto.c C-Vetores-matrizes/JogoDaVelha.c C-Vetores-matrizes/OrdenacaoTroca.c C-String/LeituraString.c C-String/ComparacaoString.c C-Structure/StructTypeDef.c C-Structure/TableFunc.c C-Ponteiro/mainFile.c C-Ponteiro/MinMaxSq.c C-Ponteiro/Troca.c C-Ponteiro/Exibir.c C-Ponteiro/Len.c C-Ponteiro/SomaDePonteiro.c C-Ponteiro/ParametroInfinito.c C-Ponteiro/OrdenarTabela.c C-DynamicAllocation/VetorDinamico.c C-DynamicAllocation/AlocacaoDinamica.c C-DynamicAllocation/Merge.c C-Pilha/mainFile.c -o main && ./main"
+run = "gcc C-DynamicAllocation/mainFile.c C-Recursion/mainFile.c C-Structure/mainFile.c C-Vetores-matrizes/mainFile.c C-String/mainFile.c C-Recursion/Fatorial.c C-Recursion/Potencia.c C-Recursion/SerieHarmonica.c C-Recursion/Termial.c C-Recursion/ContagemRegressiva.c C-Recursion/ContagemProgressiva.c C-Recursion/ConversaoBina.c C-Recursion/FuncaoHanoi.c C-Recursion/Par.c C-Recursion/Quonciente.c C-Recursion/Produto.c C-Recursion/Fibonacci.c C-Vetores-matrizes/ConverterBinario.c C-Vetores-matrizes/TemperaturaMedia.c C-Vetores-matrizes/Labirinto.c C-Vetores-matrizes/JogoDaVelha.c C-Vetores-matrizes/OrdenacaoTroca.c C-String/LeituraString.c C-String/ComparacaoString.c C-Structure/StructTypeDef.c C-Structure/TableFunc.c C-Ponteiro/mainFile.c C-Ponteiro/MinMaxSq.c C-Ponteiro/Troca.c C-Ponteiro/Exibir.c C-Ponteiro/Len.c C-Ponteiro/SomaDePonteiro.c C-Ponteiro/ParametroInfinito.c C-Ponteiro/OrdenarTabela.c C-DynamicAllocation/VetorDinamico.c C-DynamicAllocation/AlocacaoDinamica.c C-DynamicAllocation/Merge.c C-Pilha/mainFile.c C-Pilha/pilha.c -o main && ./main"
 
 [agent]
 expertMode = true
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "C Program"
+
+[[workflows.workflow]]
+name = "C Program"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd C-Ponteiro && gcc -o program mainFile.c MinMaxSq.c Troca.c Exibir.c Len.c ParametroInfinito.c SomaDePonteiro.c OrdenarTabela.c && ./program"
+
+[workflows.workflow.metadata]
+outputType = "console"
