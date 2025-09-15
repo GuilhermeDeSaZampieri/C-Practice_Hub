@@ -1,3 +1,4 @@
+
 # Configuração principal do Replit
 [run]
 command = "gcc C-Pilha/mainFile.c C-Pilha/pilha.c -o main && ./main"
@@ -63,3 +64,4 @@ args = "gcc C-DynamicAllocation/mainFile.c C-DynamicAllocation/VetorDinamico.c C
 
 [agent]
 expertMode = true
+
