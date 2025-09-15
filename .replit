@@ -11,7 +11,7 @@ name = "C-Pilha"
 author = "agent"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "gcc C-Pilha/mainFile.c C-Pilha/pilha.c -o main && ./main"
+args = "gcc C-Pilha/mainFile.c C-Pilha/pilha.c C-Pilha/TestePilhasFunctions.c C-Pilha/OrdenacaoCresc.c C-Pilha/OrdenacaoDec.c C-Pilha/InverterLetra.c -o main && ./main"
 
 # Workflow para C-Recursion
 [[workflows.workflow]]
