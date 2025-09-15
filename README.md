@@ -47,11 +47,57 @@ C-Basics-Exercises/
 │   │-- Rastros.c
 │   │-- Termial.c
 
+│-- C-Functions/
+│   │-- BrincandoComDefine.c
+│   │-- DataValidaRecursividade.c
+│   │-- DiaDaSemana.c
+│   │-- RaizQuadradaNewton.c
+│   │-- TesteDeMaiusculaDefine.c
+│   │-- MainFile.c
 
-│-- 3-Funcoes/
-│   │-- funcoes_basicas.c
-│   │-- recursao.c
-│-- 4-Ponteiros_e_Arrays/
+│-- C-Recursion/
+│   │-- ContagemProgressiva.c
+│   │-- ContagemRegressiva.c
+│   │-- ConversaoBina.c
+│   │-- Fatorial.c
+│   │-- Fibonacci.c
+│   │-- FuncaoHanoi.c
+│   │-- Par.c
+│   │-- Potencia.c
+│   │-- Produto.c
+│   │-- Quonciente.c
+│   │-- SerieHarmonica.c
+│   │-- Termial.c
+│   │-- mainFile.c
+
+│-- C-Vetores-matrizes/
+│   │-- ConverterBinario.c
+│   │-- JogoDaVelha.c
+│   │-- Labirinto.c
+│   │-- OrdenacaoTroca.c
+│   │-- TemperaturaMedia.c
+│   │-- mainFile.c
+
+│-- C-Vetores-matrizes/
+│   │-- ConverterBinario.c
+│   │-- JogoDaVelha.c
+│   │-- Labirinto.c
+│   │-- OrdenacaoTroca.c
+│   │-- TemperaturaMedia.c
+│   │-- mainFile.c
+
+│-- C-String/
+│   │-- ComparacaoString.c
+│   │-- LeituraString.c
+│   │-- mainFile.c
+
+│-- C-Structure/
+│   │-- StructTypeDef.c
+│   │-- TableFunc.c
+│   │-- LivroType.c
+│   │-- mainFile.c
+
+│-- C-Ponteiros/
 │   │-- ponteiros.c
 │   │-- arrays.c
 │-- ...
